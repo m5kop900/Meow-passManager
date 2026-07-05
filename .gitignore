@@ -1,0 +1,12 @@
+__pycache__/
+meow_passmanager.egg-info/
+*.pyc
+.venv/
+venv/
+
+passwd.db
+*.vault
+passwd_backup_*.db
+
+.idea/
+.vscode/

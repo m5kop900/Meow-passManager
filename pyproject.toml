@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meow-passmanager"
+version = "1.0.0"
+description = "A simple encrypted CLI password manager."
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "colorama",
+    "cryptography",
+    "pyperclip",
+]
+
+[project.scripts]
+pm = "pm.__main__:main"
